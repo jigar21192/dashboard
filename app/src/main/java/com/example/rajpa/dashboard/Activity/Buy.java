@@ -55,12 +55,13 @@ public class Buy extends AppCompatActivity {
     }
 
     private void initButton() {
-        w = Double.parseDouble(weight.getText().toString());
-        p = Double.parseDouble(price.getText().toString());
+
 
         price.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                w = Double.parseDouble(weight.getText().toString());
+                p = Double.parseDouble(price.getText().toString());
                 t=w*p;
                 total.setText(Double.toString(t));
             }
