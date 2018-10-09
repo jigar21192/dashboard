@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".login"
+            android:name=".Activity.Buy"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".navigation_dashboard" />
-        <activity android:name=".Activity.Buy" />
+        <activity android:name=".login" />
         <activity android:name=".Activity.Sell_payment" />
         <activity android:name=".Activity.Purchase_payment" />
         <activity android:name=".Activity.Sell" />
